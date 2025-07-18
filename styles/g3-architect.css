@@ -200,7 +200,27 @@ main>section {
     font-size: 65px;
     font-weight: 700;
 }
-
+/* fact section style start */
+.facts-content{
+    max-width: 542px;
+    margin-top:2.6rem ;
+    margin-bottom:6.26rem ;
+    margin-left: 1rem;
+}
+.acivment-container{
+    display: flex;
+    gap: 7.75rem;
+    margin: 0 1rem;
+}
+.acivment-card{
+    border: 1px solid #FF900E; 
+    border-radius: 8px;
+    
+}
+.acivment{
+    padding: 3rem;
+    text-align: center;
+}
 /* resposive quary of mobile  */
 @media screen and (max-width:576px) {
 
@@ -250,6 +270,10 @@ main>section {
     .right-column button {
         margin: 10px 0;
     }
+    .acivment-container{
+    flex-direction: column;
+    gap: 2rem;
+}
 }
 
 /* responsive quary for table */
@@ -305,4 +329,9 @@ main>section {
     .right-column button {
         margin: 10px 0;
     }
+       .acivment-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
 }
