@@ -114,12 +114,12 @@
 }
 
 /* main section style star */
-main {
+main,footer {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-main>section {
+main> section {
     margin-top: 8rem;
 }
 
@@ -235,6 +235,15 @@ main>section {
     justify-content: space-between;
     align-items: center;
     filter: grayscale(100);
+}
+/* footer section style start  */
+footer{
+    margin-top: 4rem;
+   background-color: #FFF4E7 ;
+   text-align: center;
+}
+footer {
+padding: 2.5rem 0;
 }
 /* resposive quary of mobile  */
 @media screen and (max-width:576px) {
