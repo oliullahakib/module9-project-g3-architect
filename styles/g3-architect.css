@@ -249,7 +249,7 @@ padding: 2.5rem 0;
 @media screen and (max-width:576px) {
 
     .nav-bar,
-    .nav-links,.sponsor-logos,.acivment-container {
+    .nav-links,.sponsor-logos,.acivment-container, .quick-list-features {
         flex-direction: column;
 
     }
@@ -262,10 +262,6 @@ padding: 2.5rem 0;
     .nav-links {
         gap: 1em;
         margin: 1em 0;
-    }
-
-    .quick-list-features {
-        flex-direction: column;
     }
 
     .img-collage {
@@ -303,13 +299,16 @@ padding: 2.5rem 0;
 @media screen and (min-width:576px) and (max-width:992px) {
 
     .nav-bar,
-    .nav-links,.sponsor-logos {
+    .nav-links,
+    .sponsor-logos,
+     .quick-list-features {
         flex-direction: column;
 
     }
 
     .nav-bar,
-    .nav-links {
+    .nav-links,
+    .quick-list-content {
         text-align: center;
     }
 
@@ -317,17 +316,8 @@ padding: 2.5rem 0;
         gap: 1em;
         margin: 1em 0;
     }
-
-    .quick-list-features {
-        flex-direction: column;
-    }
-
     .img-collage {
         grid-template-columns: repeat(2, 1fr);
-    }
-
-    .quick-list-content {
-        text-align: center;
     }
 
     .love-features {
