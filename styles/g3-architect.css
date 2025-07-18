@@ -221,11 +221,26 @@ main>section {
     padding: 3rem;
     text-align: center;
 }
+/* sponsors section style start  */
+.sponsors{
+    text-align: center;
+}
+.sponsors-content{
+    max-width: 542px;
+    margin: auto;
+}
+.sponsor-logos{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: grayscale(100);
+}
 /* resposive quary of mobile  */
 @media screen and (max-width:576px) {
 
     .nav-bar,
-    .nav-links {
+    .nav-links,.sponsor-logos,.acivment-container {
         flex-direction: column;
 
     }
@@ -270,8 +285,7 @@ main>section {
     .right-column button {
         margin: 10px 0;
     }
-    .acivment-container{
-    flex-direction: column;
+    .acivment-container,.sponsor-logos{
     gap: 2rem;
 }
 }
@@ -280,7 +294,7 @@ main>section {
 @media screen and (min-width:576px) and (max-width:992px) {
 
     .nav-bar,
-    .nav-links {
+    .nav-links,.sponsor-logos {
         flex-direction: column;
 
     }
@@ -329,7 +343,7 @@ main>section {
     .right-column button {
         margin: 10px 0;
     }
-       .acivment-container{
+       .acivment-container,.sponsor-logos{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
